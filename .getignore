@@ -1,0 +1,30 @@
+# Arquivos e diretórios gerados automaticamente
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyz
+*.pyzw
+
+# Arquivos de ambiente
+.env
+
+# Arquivos de log
+*.log
+
+# Banco de dados SQLite
+db.sqlite3
+
+# Diretório de mídia (arquivos enviados pelo usuário)
+media/
+
+# Arquivos de configuração local
+local_settings.py
+
+# Diretório de dependências geradas pelo pip
+venv/
+env/
+
+# Ignorar arquivos de configuração com a SECRET_KEY
+**/secrets.json
+*.json
