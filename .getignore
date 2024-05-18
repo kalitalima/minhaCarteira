@@ -26,5 +26,4 @@ venv/
 env/
 
 # Ignorar arquivos de configuração com a SECRET_KEY
-**/secrets.json
 *.json
